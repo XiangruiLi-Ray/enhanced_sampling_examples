@@ -1,25 +1,21 @@
 # Prerequisites
-Openmm is chosen as the simulation engine.
+The following packages are required:
 
-Following packages are required:
-
-openmm
-openmm-plumed
-pysages
-openff-toolkit
+## simulation requirements
+- openmm (simulation engine for all examples)
+- openmm-plumed (Plumed plugin for openmm)
+- pysages (Enhanced sampling package)
+- openff-toolkit (Modeling package)
+- plumed (Enhanced sampling package)
+## analyze requirements
+- rdkit
+- ase
+- pandas
 
 # The following enhanced sampling examples are tested
 
-## Metadynamics
-
-
-## Adaptive Bias Force
-
-
-## Umbrella Sampling
-
-
-## Artificial Neural Network
-
-
-## On-the-fly Probablistic Enhanced Sampling
+- Well-tempered Metadynamics
+- Adaptive Bias Force
+- Umbrella Sampling
+- Artificial Neural Network
+- On-the-fly Probability Enhanced Sampling
